@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EATViewController : UIViewController
+@interface EATViewController : UITableViewController
 
 @end

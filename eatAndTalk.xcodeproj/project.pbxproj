@@ -27,6 +27,27 @@
 		0194F2E5181A23430094733E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0194F2B7181A23430094733E /* Foundation.framework */; };
 		0194F2ED181A23430094733E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0194F2EB181A23430094733E /* InfoPlist.strings */; };
 		0194F2F0181A23430094733E /* eatAndTalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0194F2EF181A23430094733E /* eatAndTalkTests.m */; };
+		0194F2FA181A24E90094733E /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0194F2F9181A24E90094733E /* libicucore.dylib */; };
+		0194F2FC181A24F80094733E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0194F2FB181A24F80094733E /* SystemConfiguration.framework */; };
+		0194F300181A90E40094733E /* EATLunchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0194F2FF181A90E40094733E /* EATLunchCell.m */; };
+		0194F301181A90E40094733E /* EATLunchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0194F2FF181A90E40094733E /* EATLunchCell.m */; };
+		0194F303181A91240094733E /* EATLunchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0194F302181A91240094733E /* EATLunchCell.xib */; };
+		0194F304181A91240094733E /* EATLunchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0194F302181A91240094733E /* EATLunchCell.xib */; };
+		0194F308181A9A350094733E /* JabberJawColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 0194F307181A9A350094733E /* JabberJawColors.m */; };
+		0194F309181A9A350094733E /* JabberJawColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 0194F307181A9A350094733E /* JabberJawColors.m */; };
+		0194F30C181A9A400094733E /* UIGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0194F30B181A9A400094733E /* UIGradientButton.m */; };
+		0194F30D181A9A400094733E /* UIGradientButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0194F30B181A9A400094733E /* UIGradientButton.m */; };
+		0194F315181A9BE00094733E /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0194F314181A9BE00094733E /* Utils.m */; };
+		0194F316181A9BE00094733E /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0194F314181A9BE00094733E /* Utils.m */; };
+		0194F318181A9D810094733E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0194F317181A9D810094733E /* QuartzCore.framework */; };
+		0194F366181AA1840094733E /* greenCheckMark.png in Resources */ = {isa = PBXBuildFile; fileRef = 0194F364181AA1840094733E /* greenCheckMark.png */; };
+		0194F367181AA1840094733E /* greenCheckMark.png in Resources */ = {isa = PBXBuildFile; fileRef = 0194F364181AA1840094733E /* greenCheckMark.png */; };
+		0194F368181AA1840094733E /* redQuestionMark.png in Resources */ = {isa = PBXBuildFile; fileRef = 0194F365181AA1840094733E /* redQuestionMark.png */; };
+		0194F369181AA1840094733E /* redQuestionMark.png in Resources */ = {isa = PBXBuildFile; fileRef = 0194F365181AA1840094733E /* redQuestionMark.png */; };
+		0194F36D181AA7D20094733E /* EATDeleteMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0194F36B181AA7D10094733E /* EATDeleteMeViewController.m */; };
+		0194F36E181AA7D20094733E /* EATDeleteMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0194F36B181AA7D10094733E /* EATDeleteMeViewController.m */; };
+		0194F36F181AA7D20094733E /* EATDeleteMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0194F36C181AA7D20094733E /* EATDeleteMeViewController.xib */; };
+		0194F370181AA7D20094733E /* EATDeleteMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0194F36C181AA7D20094733E /* EATDeleteMeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +87,23 @@
 		0194F2EC181A23430094733E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0194F2EE181A23430094733E /* eatAndTalkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = eatAndTalkTests.h; sourceTree = "<group>"; };
 		0194F2EF181A23430094733E /* eatAndTalkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eatAndTalkTests.m; sourceTree = "<group>"; };
+		0194F2F9181A24E90094733E /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		0194F2FB181A24F80094733E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0194F2FE181A90E40094733E /* EATLunchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATLunchCell.h; sourceTree = "<group>"; };
+		0194F2FF181A90E40094733E /* EATLunchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EATLunchCell.m; sourceTree = "<group>"; };
+		0194F302181A91240094733E /* EATLunchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EATLunchCell.xib; sourceTree = "<group>"; };
+		0194F306181A9A350094733E /* JabberJawColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JabberJawColors.h; sourceTree = "<group>"; };
+		0194F307181A9A350094733E /* JabberJawColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JabberJawColors.m; sourceTree = "<group>"; };
+		0194F30A181A9A400094733E /* UIGradientButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGradientButton.h; sourceTree = "<group>"; };
+		0194F30B181A9A400094733E /* UIGradientButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIGradientButton.m; sourceTree = "<group>"; };
+		0194F313181A9BE00094733E /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		0194F314181A9BE00094733E /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		0194F317181A9D810094733E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0194F364181AA1840094733E /* greenCheckMark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenCheckMark.png; sourceTree = "<group>"; };
+		0194F365181AA1840094733E /* redQuestionMark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redQuestionMark.png; sourceTree = "<group>"; };
+		0194F36A181AA7D10094733E /* EATDeleteMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EATDeleteMeViewController.h; sourceTree = "<group>"; };
+		0194F36B181AA7D10094733E /* EATDeleteMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EATDeleteMeViewController.m; sourceTree = "<group>"; };
+		0194F36C181AA7D20094733E /* EATDeleteMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EATDeleteMeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +111,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0194F318181A9D810094733E /* QuartzCore.framework in Frameworks */,
+				0194F2FC181A24F80094733E /* SystemConfiguration.framework in Frameworks */,
+				0194F2FA181A24E90094733E /* libicucore.dylib in Frameworks */,
 				0194F2B6181A23430094733E /* UIKit.framework in Frameworks */,
 				0194F2B8181A23430094733E /* Foundation.framework in Frameworks */,
 				0194F2BA181A23430094733E /* CoreGraphics.framework in Frameworks */,
@@ -98,6 +139,10 @@
 		0194F2A9181A23430094733E = {
 			isa = PBXGroup;
 			children = (
+				0194F363181AA1840094733E /* Resources */,
+				0194F317181A9D810094733E /* QuartzCore.framework */,
+				0194F2FB181A24F80094733E /* SystemConfiguration.framework */,
+				0194F2F9181A24E90094733E /* libicucore.dylib */,
 				0194F2BF181A23430094733E /* eatAndTalk */,
 				0194F2E8181A23430094733E /* eatAndTalkTests */,
 				0194F2B4181A23430094733E /* Frameworks */,
@@ -130,12 +175,19 @@
 		0194F2BF181A23430094733E /* eatAndTalk */ = {
 			isa = PBXGroup;
 			children = (
+				0194F312181A9BE00094733E /* Helpers */,
+				0194F306181A9A350094733E /* JabberJawColors.h */,
+				0194F307181A9A350094733E /* JabberJawColors.m */,
+				0194F2FD181A90A10094733E /* Views */,
 				0194F2C8181A23430094733E /* EATAppDelegate.h */,
 				0194F2C9181A23430094733E /* EATAppDelegate.m */,
 				0194F2D1181A23430094733E /* MainStoryboard_iPhone.storyboard */,
 				0194F2D4181A23430094733E /* MainStoryboard_iPad.storyboard */,
 				0194F2D7181A23430094733E /* EATViewController.h */,
 				0194F2D8181A23430094733E /* EATViewController.m */,
+				0194F36A181AA7D10094733E /* EATDeleteMeViewController.h */,
+				0194F36B181AA7D10094733E /* EATDeleteMeViewController.m */,
+				0194F36C181AA7D20094733E /* EATDeleteMeViewController.xib */,
 				0194F2DA181A23430094733E /* Firebase.framework */,
 				0194F2C0181A23430094733E /* Supporting Files */,
 			);
@@ -173,6 +225,44 @@
 				0194F2EB181A23430094733E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0194F2FD181A90A10094733E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0194F305181A99980094733E /* Components */,
+				0194F2FE181A90E40094733E /* EATLunchCell.h */,
+				0194F2FF181A90E40094733E /* EATLunchCell.m */,
+				0194F302181A91240094733E /* EATLunchCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0194F305181A99980094733E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0194F30A181A9A400094733E /* UIGradientButton.h */,
+				0194F30B181A9A400094733E /* UIGradientButton.m */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0194F312181A9BE00094733E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0194F313181A9BE00094733E /* Utils.h */,
+				0194F314181A9BE00094733E /* Utils.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0194F363181AA1840094733E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0194F364181AA1840094733E /* greenCheckMark.png */,
+				0194F365181AA1840094733E /* redQuestionMark.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +343,10 @@
 				0194F2D0181A23430094733E /* Default-568h@2x.png in Resources */,
 				0194F2D3181A23430094733E /* MainStoryboard_iPhone.storyboard in Resources */,
 				0194F2D6181A23430094733E /* MainStoryboard_iPad.storyboard in Resources */,
+				0194F303181A91240094733E /* EATLunchCell.xib in Resources */,
+				0194F366181AA1840094733E /* greenCheckMark.png in Resources */,
+				0194F368181AA1840094733E /* redQuestionMark.png in Resources */,
+				0194F36F181AA7D20094733E /* EATDeleteMeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +355,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0194F2ED181A23430094733E /* InfoPlist.strings in Resources */,
+				0194F304181A91240094733E /* EATLunchCell.xib in Resources */,
+				0194F367181AA1840094733E /* greenCheckMark.png in Resources */,
+				0194F369181AA1840094733E /* redQuestionMark.png in Resources */,
+				0194F370181AA7D20094733E /* EATDeleteMeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +388,11 @@
 				0194F2C6181A23430094733E /* main.m in Sources */,
 				0194F2CA181A23430094733E /* EATAppDelegate.m in Sources */,
 				0194F2D9181A23430094733E /* EATViewController.m in Sources */,
+				0194F300181A90E40094733E /* EATLunchCell.m in Sources */,
+				0194F308181A9A350094733E /* JabberJawColors.m in Sources */,
+				0194F30C181A9A400094733E /* UIGradientButton.m in Sources */,
+				0194F315181A9BE00094733E /* Utils.m in Sources */,
+				0194F36D181AA7D20094733E /* EATDeleteMeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +401,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0194F2F0181A23430094733E /* eatAndTalkTests.m in Sources */,
+				0194F301181A90E40094733E /* EATLunchCell.m in Sources */,
+				0194F309181A9A350094733E /* JabberJawColors.m in Sources */,
+				0194F30D181A9A400094733E /* UIGradientButton.m in Sources */,
+				0194F316181A9BE00094733E /* Utils.m in Sources */,
+				0194F36E181AA7D20094733E /* EATDeleteMeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
